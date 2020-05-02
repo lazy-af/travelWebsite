@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="warning">The Website is currently not mobile/tablet freindly, will be available soon</div>
+
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="#">Travello</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-2 active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+      </nav>
+
+      <!-- CAROUSEL -->
+
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="images/carousel1.jpg" class="d-block img-fluid w-100" alt="carousel-image1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel2.jpg" class="d-block img-fluid w-100" alt="carousel-image2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel3.jpg" class="d-block img-fluid w-100" alt="carousel-image3">
+          </div>
+        </div>
+        
+        <div class="heading-box">
+        <h1 class="heading-carousel">we help you <br> <span>explore</span> <br> the world</h1>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control form-control-lg transparent-input" placeholder="Find a Place">
+            <div class="input-group-append">
+              <button class="btn btn-lg btn-outline-light" type="button" id="button-addon2">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="container py-3 mb-4" id="destination">
+        <h1 class="display-4 p-4 my-3 destination-heading text-center">popular destination</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="place1 place mb-5">
+              <span class="placename">DUBAI</span>
+            </div>
+            <div class="place2 place">
+              <span class="placename">AUSTRALIA</span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="place3 place mt-3">
+              <span class="placename">MALDIVES</span>
+            </div>
+          </div>
+          <div class="col-md-4 place">
+            <div class="place4 mb-5">
+              <span class="placename">EUROPE</span>
+            </div>
+            <div class="place5 place">
+              <span class="placename">JAPAN</span>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 text-center">
+        <a href="#" class="btn btn-outline-dark ">Explore all</a>
+      </div>
+
+      </section>
+
+      <section id="testimonial">
+        <video class="video" autoplay muted loop id="myVideo">
+          <source src="./coverr-aerial-view-of-rocky-mountains-1585320758193.mp4" type="video/mp4">
+        </video>
+        <div class="darkoverlay"></div>
+        <div class="container  aboveall">
+        <h1 class="testimonial-headiung display-4 text-center mb-5">What does our customers have to say?</h1>
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row d-flex justify-content-around">
+                <div class="col-md-3 review-box">
+                  <div class="avatar-image avatar-image-1 mx-auto mt-4"></div>
+                  <h1 class="review-heading text-center mt-3">best trip ever!!!</h1>
+                  <p class="review-text text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim ducimus facilis, 
+                    quo ipsam eos ipsum adipisci voluptatem. Necessitatibus voluptatibus ea consectetur, animi fugit dolorem 
+                    debitis quod recusandae vitae, ut earum, tempora quos. Dolor sed quasi fugit sequi error atque.</p>
+                  <p class="author text-right">-Lana Romero</p>
+                </div>
+                <div class="col-md-3 review-box">
+                  <div class="avatar-image avatar-image-2 mx-auto mt-4"></div>
+                  <h1 class="review-heading text-center mt-3">enjoyed every moment</h1>
+                  <p class="review-text text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim ducimus facilis, 
+                    quo ipsam eos ipsum adipisci voluptatem. Necessitatibus voluptatibus ea consectetur, animi fugit dolorem 
+                    debitis quod recusandae vitae, ut earum, tempora quos. Dolor sed quasi fugit sequi error atque.</p>
+                  <p class="author text-right">-Rudy Peck</p>
+                </div>
+                <div class="col-md-3 review-box">
+                  <div class="avatar-image avatar-image-3 mx-auto mt-4"></div>
+                  <h1 class="review-heading text-center mt-3">just loved it.</h1>
+                  <p class="review-text text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim ducimus facilis, 
+                    quo ipsam eos ipsum adipisci voluptatem. Necessitatibus voluptatibus ea consectetur, animi fugit dolorem 
+                    debitis quod recusandae vitae, ut earum, tempora quos. Dolor sed quasi fugit sequi error atque.</p>
+                  <p class="author text-right">-Alysha Sparrow</p>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="carousel-item">
+              <div class="row d-flex justify-content-around">
+          <div class="col-md-3 review-box">
+            <div class="avatar-image avatar-image-4 mx-auto mt-4"></div>
+            <h1 class="review-heading text-center mt-3">amazing tours</h1>
+            <p class="review-text text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim ducimus facilis, 
+              quo ipsam eos ipsum adipisci voluptatem. Necessitatibus voluptatibus ea consectetur, animi fugit dolorem 
+              debitis quod recusandae vitae, ut earum, tempora quos. Dolor sed quasi fugit sequi error atque.</p>
+            <p class="author text-right">-Anna Rigby</p>
+          </div>
+          <div class="col-md-3 review-box">
+            <div class="avatar-image avatar-image-5 mx-auto mt-4"></div>
+            <h1 class="review-heading text-center mt-3">worth my time.</h1>
+            <p class="review-text text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim ducimus facilis, 
+              quo ipsam eos ipsum adipisci voluptatem. Necessitatibus voluptatibus ea consectetur, animi fugit dolorem 
+              debitis quod recusandae vitae, ut earum, tempora quos. Dolor sed quasi fugit sequi error atque.</p>
+            <p class="author text-right">-Douglas Herbert</p>
+          </div>
+          <div class="col-md-3 review-box">
+            <div class="avatar-image avatar-image-6 mx-auto mt-4"></div>
+            <h1 class="review-heading text-center mt-3">unforgettable memories</h1>
+            <p class="review-text text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum enim ducimus facilis, 
+              quo ipsam eos ipsum adipisci voluptatem. Necessitatibus voluptatibus ea consectetur, animi fugit dolorem 
+              debitis quod recusandae vitae, ut earum, tempora quos. Dolor sed quasi fugit sequi error atque.</p>
+            <p class="author text-right">-Kody Fuller</p>
+          </div>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      </section>
+
+
+      <section id="services" class="mb-5">
+        <div class="container">
+          <h1 class="display-4 service-heading my-5 text-center">Why Choose Us?</h1>
+          <div class="row d-flex justify-content-around my-5">
+            <div class="col-md-3 text-center">
+              <i class="fas fa-bus fa-4x mb-3"></i>
+              <h1 class="service-card-heading mt-3">Comfortable Journey</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat repellat laudantium.</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fas fa-hotel fa-4x mb-3"></i>
+              <h1 class="service-card-heading mt-3">Luxuries Hotel</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat repellat laudantium.consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fas fa-globe-americas fa-4x mb-3"></i>
+              <h1 class="service-card-heading mt-3">Travel Guide</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat repellat laudantium.consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+
+          <div class="row d-flex justify-content-around my-5">
+            <div class="col-md-3 text-center">
+              <i class="fas fa-tag fa-4x mb-3"></i>
+              <h1 class="service-card-heading mt-3">Best Price</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat repellat laudantium. sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fas fa-route fa-4x mb-3"></i>
+              <h1 class="service-card-heading mt-3">Travel Arrangements</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat repellat laudantium.consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <i class="fas fa-map-marked-alt  fa-4x mb-3"></i>
+              <h1 class="service-card-heading mt-3">Location Manager</h1>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat repellat laudantium.consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="newsletter" >
+        <div class="container">
+          <div class="newsletter-text-box">
+          <h1 class="newsletter-heading text-center mt-5">subscribe to our newsletter</h1>
+          <h4 class="newsletter-sub-heading text-center mb-5">Get updated with our latest offers and tours.</h4>
+          <div class="input-group mt-3">
+            <input type="email" class="form-control form-control-lg transparent-input" placeholder="Your Email Id">
+            <div class="input-group-append">
+              <button class="btn btn-lg btn-outline-light" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer id="contact">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-lg-3">
+              <h2 class="contact-heading mb-5">Adventure</h2>
+              <p class="lead mb-5">Far far away, behind the word mountains, far from the countries Vokalia 
+                and Consonantia, there live the blind texts.</p>
+
+                <a class="contact-link-icon" href="#"> <i class="fab fa-2x mx-3 fa-facebook-f"></i></a>
+                <a class="contact-link-icon" href="#"> <i class="fab fa-2x mx-3 fa-twitter"></i></a>
+                <a class="contact-link-icon" href="#"> <i class="fab fa-2x mx-3 fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-3">
+              <h2 class="contact-heading mb-5">Infromation</h2>
+              <a class="contact-link" href="#">Online Enquiry</a>
+              <a class="contact-link" href="#">General Enquiries</a>
+              <a class="contact-link" href="#">Booking Conditions</a>
+              <a class="contact-link" href="#">Privacy and Policy</a>
+              <a class="contact-link" href="#">Refund Policy</a>
+              <a class="contact-link" href="#">Call Us</a>
+            </div>
+            <div class="col-lg-3">
+            <h2 class="contact-heading mb-5">Experience</h2>
+            <a class="contact-link" href="#">Adventure</a>
+            <a class="contact-link" href="#">Hotel and Restaurant</a>
+            <a class="contact-link" href="#">Beach</a>
+            <a class="contact-link" href="#">Nature</a>
+            <a class="contact-link" href="#">Camping</a>
+            <a class="contact-link" href="#">Party</a>
+            </div>
+            <div class="col-lg-3">
+              <h2 class="contact-heading mb-2">Have a Questions?</h2>
+              <div class="">
+                <div class="row my-4">
+                  <div class="col-2"> <i class="fas white-icon fa-map-marker-alt fa-2x"></i> </div>
+                  <div class="col-10">
+                    <p class="lead">590 Beech Ave. Mount Pleasant, SC 29464</p>
+                  </div>
+                </div>
+
+
+                <div class="row my-4">
+                  <div class="col-2"> <i class="fas white-icon fa-phone-alt fa-2x"></i></i> </div>
+                  <div class="col-10">
+                    <p class="lead">+(260) 216-8220
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="row my-4">
+                  <div class="col-2"> <i class="fas white-icon fa-envelope fa-2x"></i></i> </div>
+                  <div class="col-10">
+                    <p class="lead">lazycoderlife@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
